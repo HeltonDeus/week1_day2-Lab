@@ -6,8 +6,8 @@ console.log(`The driver's name is ${driverName}.`); /*1.2*/
 let navigatorName ='Paul'; /*1.3*/
 console.log(`The navigator's name is ${navigatorName}.`); /*1.4*/
 
-let driverCharacters === driverName.length();  /*2.1*/
-let navigatorCharacters === navigatorName.length();
+let driverCharacters = driverName.length();  /*2.1*/
+let navigatorCharacters = navigatorName.length();
 
 if (driverCharacters > navigatorCharacters){
   console.log(`The driver has the longest name, it has ${driverName.length()}.`);
@@ -21,6 +21,9 @@ if (driverCharacters > navigatorCharacters){
 } else {
   console.log (`The amount of the characters is unknown.`);
 }
+
+driverName.length();
+console.log(driverName.toUpperCase());
 
 
 
