@@ -25,6 +25,34 @@ if (driverCharacters > navigatorCharacters){
 driverName.length();
 console.log(driverName.toUpperCase());
 
+function wordReverse()
+{
+    let i = navigatorName.length() - 1;
+    let start, end = i + 1;
+    let result = "";
+     
+    while (i >= 0)
+    {
+        if (navigatorName[i] == ' ')
+        {
+            start = i + 1;
+            while (start != end)
+                result += navigatorName[start++];
+             
+            result += ' ';
+            end = i;
+        }
+        i--;
+    }
+    start = 0;
+     
+    while (start != end)
+        result += navigatorName[start++];
+     
+    return result;
+}
+
+
 
 
 

@@ -1,3 +1,12 @@
 {
-  "files": {}
+  "files": {
+    "index.js": [
+      {
+        "id": "047f2c8d-63ea-445d-b803-d15b690c51bc",
+        "line": 12,
+        "version": 1609,
+        "index": 302
+      }
+    ]
+  }
 }
